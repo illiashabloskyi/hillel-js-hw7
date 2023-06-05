@@ -1,9 +1,9 @@
 // Вивести на сторінку в один рядок через кому числа від 10 до 20
 
-let str = ''
+let str = "";
 
-for (let i = 10; i<=20; i++){
-  str += `${i}, `
+for (let i = 10; i <= 20; i++) {
+  str += `${i}, `;
 }
 
-console.log(str.slice(0, -2))
+console.log(str.slice(0, -2));
