@@ -6,4 +6,4 @@ for (let i = 10; i <= 20; i++) {
   str += `${i}, `;
 }
 
-console.log(str.slice(0, -2));
+alert(`${str.slice(0, -2)}`);
